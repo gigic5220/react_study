@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import logo from './logo.svg';
+import Gugudan from './component/Gugudan';
 import './App.css';
 
 function App() {
@@ -46,6 +46,7 @@ function App() {
                     {title[2]}
                 </div>
             </div>
+            <Gugudan/>
         </div>
     );
 }
