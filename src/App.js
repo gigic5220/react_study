@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import Gugudan from './component/Gugudan';
+import WordRelay from './component/WordRelay';
 import './App.css';
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
                 </div>
             </div>
             <Gugudan/>
+            <WordRelay/>
         </div>
     );
 }
