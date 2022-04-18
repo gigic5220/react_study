@@ -2,6 +2,7 @@ import {useState} from 'react';
 import Gugudan from './component/Gugudan';
 import WordRelay from './component/WordRelay';
 import './App.css';
+import NumberBaseball from "./component/NumberBaseball";
 
 function App() {
     let [title, changeTitle] = useState(['1', '2', '3']);
@@ -49,6 +50,7 @@ function App() {
             </div>
             <Gugudan/>
             <WordRelay/>
+            <NumberBaseball/>
         </div>
     );
 }
